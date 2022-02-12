@@ -2,7 +2,6 @@ site_name: xenondevs docs
 site_url: https://xenondevs.xyz/docs/
 repo_url: https://github.com/xenondevs/Docs
 repo_name: xenondevs/Docs
-edit_uri: edit/main/docs/
 copyright: Copyright &copy; 2022 xenondevs
 extra:
   social:
@@ -42,6 +41,9 @@ nav:
       - "Guide":
           - "Getting started": "nova/guide/index.md"
           - "Non Craftable": "nova/guide/non-craftable.md"
+          - "Items and Machines": "nova/guide/items-machines.md"
+            - "Machines": "nova/guide/machines.md"
+            - "Items": "nova/guide/items.md"
       - "For Server Admins":
           - "Configs":
             - "Main Config": "nova/configs/main.md"
